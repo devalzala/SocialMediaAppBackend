@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
+const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 
 if (process.env.NODE_ENV !== "production") {
