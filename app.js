@@ -3,6 +3,7 @@ const app = express();
 // import dotenv from "dotenv";
 const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
+var path = require('path');
 
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config({ path: "backend/config/config.env" });
